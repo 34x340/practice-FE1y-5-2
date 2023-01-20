@@ -35,32 +35,26 @@ body {
   transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
 }
 
-header {
+.header {
   padding-top: 71px;
   padding-bottom: 92px;
 }
-
 .header-item {
   margin-left: 100px;
   transition: transform 500ms linear 250ms;
 }
-
 .header-item:first-child {
   margin-left: 0;
 }
-
 .header-item:hover {
   transform: scale(1.5);
 }
-
 .header-link {
   color: #7D7D7D;
 }
-
 .header-link:hover {
   color: #03A9F4;
 }
-
 .header-button {
   color: red;
   display: block;
